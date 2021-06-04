@@ -3,9 +3,10 @@ title: "Docker: supercharge your CI pipeline"
 date: "2021-06-02"
 draft: false
 path: "/blog/docker-supercharge-continous-integration"
-tags: ["Docker", "CI"]
+tags: ["Docker", "CI", "DevOps"]
 ---
-![Docker and GitLab logos](/../images/docker-supercharge-continous-integration.png)
+![Docker and GitLab logos](/../images/docker-gitlab-logo.png)
+
 Whenever we hear that a project uses Docker, automatically the microservices architecture comes into mind. However Docker is not only useful among the microservices paradigm. Many of the leading Git platforms rely on Docker images for their CI (Continous Integration) pipelines. Over this post we will focus on GitLab (although other providers such as GitHub or Bitbucket follow similar concepts) to explain how Docker can help us to supercharge our CI, including the creation of custom images to include even the most complex project requirement.
 
 # The basics
