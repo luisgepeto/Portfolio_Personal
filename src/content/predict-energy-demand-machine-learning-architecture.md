@@ -1,6 +1,6 @@
 ---
 title: "Predicting energy demand: A machine learning architecture"
-date: "2021-06-04"
+date: "2021-06-07"
 draft: false
 path: "/blog/predict-energy-demand-machine-learning-architecture"
 tags: ["Azure", "*Azure ML Studi*o", "Machine Learning", ".NET"]
