@@ -39,15 +39,6 @@
   Link: </component---src-templates-blog-post-js-ef27a760d5c6c8a9ee6d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/azure-service-fabric-at-your-service/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/predict-energy-demand-machine-learning-architecture
-  Link: </webpack-runtime-f53e3220823d64be0602.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </framework-8e528b732ab2eaadb7b7.js>; rel=preload; as=script
-  Link: </app-584f2fd746a75deb887d.js>; rel=preload; as=script
-  Link: </commons-61fda48d05e98b595736.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-ef27a760d5c6c8a9ee6d.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/blog/predict-energy-demand-machine-learning-architecture/page-data.json>; rel=preload; as=fetch; crossorigin
 /blog/docker-supercharge-continous-integration
   Link: </webpack-runtime-f53e3220823d64be0602.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -57,6 +48,15 @@
   Link: </component---src-templates-blog-post-js-ef27a760d5c6c8a9ee6d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/docker-supercharge-continous-integration/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/predict-energy-demand-machine-learning-architecture
+  Link: </webpack-runtime-f53e3220823d64be0602.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </framework-8e528b732ab2eaadb7b7.js>; rel=preload; as=script
+  Link: </app-584f2fd746a75deb887d.js>; rel=preload; as=script
+  Link: </commons-61fda48d05e98b595736.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-ef27a760d5c6c8a9ee6d.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/predict-energy-demand-machine-learning-architecture/page-data.json>; rel=preload; as=fetch; crossorigin
 /404/
   Link: </webpack-runtime-f53e3220823d64be0602.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
