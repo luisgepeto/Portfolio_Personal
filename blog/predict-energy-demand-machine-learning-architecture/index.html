@@ -265,7 +265,7 @@ The actual creation of a data point prediction happens through a request to the 
     </span>
 All of the previous architecture components were inner-facing, meaning that they will only be interacting with each other within the infrastructure. In order to provide a way for our stakeholders to view the results of the energy demand prediction we can create custom HTTP endpoints. These endpoints can provide access control to determine whether a certain stakeholder has access to a specific prediction.</p>
 <p>This can be achieved through the use of <em>Azure API Management</em>, which allows to bundle APIs into products and set up policies to our stakeholders such as usage quotas and user management.</p>
-<p>The API can be consumed by most data manipulation software such as Excel or Power BI. Because it is also exposed as an HTTP endpoint, it a request can be implemented on any webpage or called from within a proprietary BMS system, fulfilling requirement <em>(2)</em>.</p>
+<p>The API can be consumed by most data manipulation software such as Excel or Power BI. Because it is also exposed as an HTTP endpoint, a request can be implemented on any webpage or called from within a proprietary BMS system, fulfilling requirement <em>(2)</em>.</p>
 <h1>The implementation</h1>
 <p>The resulting implementation of the architecture is depicted in the following diagram. Since the energy demand for the chilled water HVAC system depends on both the weather forecast data and the occupation schedule of the different meeting rooms, the APIs that expose this data need to be queried by the <em>Azure Logic App</em> that controlls the prediction processing for the data point. </p>
 <p><span
