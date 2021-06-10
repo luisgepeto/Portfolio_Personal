@@ -63,7 +63,7 @@ All of the previous architecture components were inner-facing, meaning that they
 
 This can be achieved through the use of *Azure API Management*, which allows to bundle APIs into products and set up policies to our stakeholders such as usage quotas and user management.
 
-The API can be consumed by most data manipulation software such as Excel or Power BI. Because it is also exposed as an HTTP endpoint, it a request can be implemented on any webpage or called from within a proprietary BMS system, fulfilling requirement *(2)*.
+The API can be consumed by most data manipulation software such as Excel or Power BI. Because it is also exposed as an HTTP endpoint, a request can be implemented on any webpage or called from within a proprietary BMS system, fulfilling requirement *(2)*.
 
 
 # The implementation
