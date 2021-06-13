@@ -10,56 +10,28 @@ const Content = styled.div`
 `
 
 const NavLink = styled(Link)`
-  color: black;
-  margin-left: 15px;
   text-decoration: none;
-  display: inline-block;
   position: relative;
+  margin-left: 15px;
 
   ::after {
     content: "";
     position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
+    z-index: -1;
+    top: 70%;
+    left: -0.1px;
+    right: -0.1px;
     bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    transform-origin: bottom right;
-    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: top 0.1s ease-in-out;
+    background-color: rgba(18, 111, 114, 0.8);
   }
 
   :hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    top: 0;
   }
 `
 
-const GitHubLink = styled.a`
-  color: black;
-  margin-left: 15px;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-
-  ::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    transform-origin: bottom right;
-    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-  }
-
-  :hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-`
+const GitHubLink = styled(NavLink)``
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
