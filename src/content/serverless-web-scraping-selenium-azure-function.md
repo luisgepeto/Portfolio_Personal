@@ -8,7 +8,7 @@ tags: [".NET", "Azure Functions", "Selenium", "Automation", "Docker"]
 
 ![Selenium and Azure Functions Logo](/../images/serverless-web-scraping-selenium-azure-function.png)
 
-A serverless approach to web scraping offers advantages such as scalability and reduced cost. However, the need for external depedencies such as the browser introduces additional configuration complexity. We will be using [Selenium](https://selenium.dev) (a popular browser automation tool) inside an Azure Function to retrieve weather information from a publicly available website.
+A serverless approach to web scraping offers advantages such as scalability and reduced cost. However, the need for external dependencies such as the browser introduces additional configuration complexity. In this post, we will dive into how we can use a Docker image to overcome this challenge. We will be using [Selenium](https://selenium.dev) (a popular browser automation tool) inside an Azure Function to retrieve weather information from a publicly available website.
 
 ### A word of advice
 [Web scraping is a controversial subject](https://parsers.me/us-court-fully-legalized-website-scraping-and-technically-prohibited-it/). Before moving forward with any project that uses this technique please be aware of your local regulations, as well as copyright or Intellectual Property implications for the scraped data. Also, implement an ethical web scraping with practices such as:
@@ -20,17 +20,17 @@ A serverless approach to web scraping offers advantages such as scalability and 
 # Selenium
 ![Selenium Logo](/../images/selenium-logo.png)
 
-Simply put, Selenium is a tool that allows to code regular interactions with a browser. By using Selenium, it is possible to simulate simple actions such as page reloads or user clicks. However, more powerful functionality is also available such as inspecting the DOM or simulating keyboard events.
+Simply put, Selenium is a tool that allows to code user interactions with a browser. By using Selenium, it is possible to simulate simple actions such as page reloads or clicks. However, more powerful functionality is also available such as inspecting the DOM or simulating keyboard events.
 
-Selenium is mainly used in automated web testing to ensure multi-browser compatibility. However it can also complement Test Driven Development (TDD) practices, and can [improve your Continous Integration (CI) workflow](./docker-supercharge-continous-integration) by integrating a Selenium based test suite on your test pipelines.
+Selenium is mainly used in automated web testing to ensure multi-browser compatibility. However it can also complement Test Driven Development (TDD) practices, and can [improve your Continous Integration (CI) workflow](./docker-supercharge-continous-integration) by integrating a Selenium based test suite on your CI pipeline.
 
 ## *WebDriver* & browser
 To use Selenium in your project you need to download the *WebDriver* for the browser of your choice. The *WebDriver* is an executable which needs to be added to your system's PATH whose purpose is to emulate the user's interaction with the browser. There are multiple *WebDrivers* available for most browsers (Chrome, Firefox, etc). You can find all the [supported *WebDrivers* in the Selenium documentation](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference).
 
-Since the *WebDriver* runs against the browser, we also need to have it installed on the target machine. These last two requirements are specially difficult to achieve in a serverless architecture, since these platforms do not offer a higher degree of environment configurability. 
+Since the *WebDriver* runs against the browser, we also need to have one installed on the target machine. These last two requirements are specially difficult to achieve in a serverless architecture, since these platforms do not offer a high degree of environment configurability. 
 
 ## Building a customized Selenium + Azure Functions enabled Docker image
-We need to guarantee that the Selenium dependencies are side loaded whenever our code executes. Because we will be using an Azure Function, we can create a Dockerfile based on the latest Azure functions Docker image and then install the Selenium dependencies.
+We need to guarantee that the Selenium dependencies are side loaded whenever our code executes. Because we will be using an Azure Function, we can create a Dockerfile based on the latest Azure functions Docker image and then install the Selenium dependencies on top.
 
 ```Dockerfile
 # Using the latest .NET Azure Functions Docker image as our base
