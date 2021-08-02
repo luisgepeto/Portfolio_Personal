@@ -42,4 +42,4 @@ To handle all the logic and save user data the backend of this application will 
 
 
 ## Inspiration
-The inspiration to work on this project comes from [SimpleLogin](https://github.com/simple-login) which is a self hostable solution that allows to have multiple email alias so that you can keep your real email address private. I encourage you to go over and take a look at it! 
+The inspiration to work on this project comes from [SimpleLogin](https://github.com/simple-login) which is a self hostable solution that allows to have multiple email alias so that you can keep your real email address private. I encourage you to go over and take a look at it! Also, the diagrams where created using [Terrastruct](https://terrastruct.com) which is a very flexible diagraming tool for developers.
