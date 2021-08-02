@@ -10,7 +10,7 @@ jobs:
     steps:      
       - uses: actions/checkout@v2    
       - name: Install gatsby required dependencies
-        run: npm run install
+        run: npm install
         
       - name: Generate deployment build
         run: npm run build
