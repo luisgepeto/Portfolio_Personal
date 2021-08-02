@@ -1,5 +1,5 @@
 ---
-title: "Build your own idea! - The Overview (S1E1)"
+title: "Build Your Own Idea! - The Overview (S1E1)"
 date: "2021-07-31"
 draft: false
 path: "/blog/build-your-own-idea-overview-s1-e1"
