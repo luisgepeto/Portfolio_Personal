@@ -5,7 +5,7 @@ on:
     branches: [ master ]      
 
 jobs:  
-  dependencies:
+  publish:
     runs-on: ubuntu-latest    
     steps:      
       - name: Clone latest master version
@@ -18,8 +18,8 @@ jobs:
         run: npm run build
 
       - name: Create CNAME record
-        run: echo luis.becerril.engineer > /public/CNAME
+        run: echo luis.becerril.engineer > ./public/CNAME
         
-      - name: Verify CNAME record
-        run: cat /public/CNAME
+      - name: Publish to gh-pages
+        run: gh-pages -d public
         
