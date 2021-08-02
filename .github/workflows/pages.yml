@@ -21,5 +21,5 @@ jobs:
         run: echo luis.becerril.engineer > ./public/CNAME
         
       - name: Publish to gh-pages
-        run: gh-pages -d public
+        run: npm run deploy
         
