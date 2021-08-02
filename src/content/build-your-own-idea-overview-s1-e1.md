@@ -1,5 +1,5 @@
 ---
-title: "Build your own idea! - The Overview (S1E1)"
+title: "Build Your Own Idea! - The Overview (S1E1)"
 date: "2021-07-31"
 draft: false
 path: "/blog/build-your-own-idea-overview-s1-e1"
@@ -42,4 +42,4 @@ To handle all the logic and save user data the backend of this application will 
 
 
 ## Inspiration
-The inspiration to work on this project comes from [SimpleLogin](https://github.com/simple-login) which is a self hostable solution that allows to have multiple email alias so that you can keep your real email address private. I encourage you to go over and take a look at it! 
+The inspiration to work on this project comes from [SimpleLogin](https://github.com/simple-login) which is a self hostable solution that allows to have multiple email alias so that you can keep your real email address private. I encourage you to go over and take a look at it! Also, the diagrams where created using [Terrastruct](https://terrastruct.com) which is a very flexible diagraming tool for developers.
