@@ -3,7 +3,7 @@ title: "Build your own idea! - The Overview (S1E1)"
 date: "2021-07-31"
 draft: false
 path: "/blog/build-your-own-idea-overview-s1-e1"
-tags: ["Application Architecture", "AWS"]
+tags: ["Application Architecture", "BYOI", "S1E1", "SuperSuper"]
 ---
 
 First of all, if you are reading this I want to thank you for joining me on this journey. My goal is to create what I dream will become a self-hostable open source tool that will focus in empowering everyone while grocery shopping. It is a very simple idea that has been on my mind for a while now, so I decided that today I would start building it and use the process to learn about new technologies and tools. I will also try to focus in giving a technical overview of the choices I made while creating this product so that you can replicate the process with any of your own ideas and share it with the world! 🌎 
