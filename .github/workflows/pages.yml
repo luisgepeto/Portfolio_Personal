@@ -8,9 +8,18 @@ jobs:
   dependencies:
     runs-on: ubuntu-latest    
     steps:      
-      - uses: actions/checkout@master  
+      - name: Clone latest master version
+        uses: actions/checkout@master  
+      
       - name: Install gatsby required dependencies
         run: npm install
         
       - name: Generate deployment build
         run: npm run build
+
+      - name: Create CNAME record
+        run: echo luis.becerril.engineer > /public/CNAME
+        
+      - name: Verify CNAME record
+        run: cat /public/CNAME
+        
