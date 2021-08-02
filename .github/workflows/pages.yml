@@ -5,12 +5,15 @@ on:
     branches: [ master ]      
 
 jobs:  
-  build:    
+  dependencies:
     runs-on: ubuntu-latest    
     steps:      
-      - uses: actions/checkout@v2    
+      - uses: actions/checkout@master  
       - name: Install gatsby required dependencies
         run: npm install
         
+  deploy:    
+    runs-on: ubuntu-latest    
+    steps:            
       - name: Generate deployment build
-        run: npm run build
+        run: npm run deploy
