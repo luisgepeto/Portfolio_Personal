@@ -12,8 +12,5 @@ jobs:
       - name: Install gatsby required dependencies
         run: npm install
         
-  deploy:    
-    runs-on: ubuntu-latest    
-    steps:            
       - name: Generate deployment build
-        run: npm run deploy
+        run: npm run build
