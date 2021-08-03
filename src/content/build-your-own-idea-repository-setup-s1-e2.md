@@ -10,6 +10,7 @@ https://choosealicense.com/licenses/
 https://opensource.org/licenses
 https://github.com/new
 https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 
 First of all, if you are reading this I want to thank you for joining me on this journey. My goal is to create what I dream will become a self-hostable open source tool that will focus in empowering everyone while grocery shopping. It is a very simple idea that has been on my mind for a while now, so I decided that today I would start building it and use the process to learn about new technologies and tools. I will also try to focus in giving a technical overview of the choices I made while creating this product so that you can replicate the process with any of your own ideas and share it with the world! 🌎 
 
@@ -34,7 +35,7 @@ These are the basic problems that I would like to solve, however, as the applica
 ## The solution
 We will solve this issue by creating a web based application with the following components:
 
-![BYOI Overview](/../images/byoi_overview.png)
+![BYOI Overview](/../images/byoi_s1e1_overview.png)
 
 
 ### A progressive web app
