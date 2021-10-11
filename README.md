@@ -3,4 +3,4 @@
 
 Do you want to build something great? Checkout my latest post:
 
-#### [Build Your Own Idea! - The Overview (S1E1)](https://luis.becerril.engineer/blog/build-your-own-idea-overview-s1-e1)
+#### [Build Your Own Idea! - Ready, Stop, Think! 🛑 + 🧠 (S1E2)](https://luis.becerril.engineer/blog/build-your-own-idea-ready-stop-think-s1-e2)
