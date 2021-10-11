@@ -1,11 +1,30 @@
 ---
-title: "Build Your Own Idea! - Setting up the repository (S1E2)"
+title: "Build Your Own Idea! - Ready, Stop, Think! 🛑 + 🧠 (S1E2)"
 date: "2021-08-02"
 draft: false
-path: "/blog/build-your-own-idea-repository-setup-s1-e2"
+path: "/blog/build-your-own-idea-ready-stop-think-s1-e2"
 tags: ["Repository","Git", "BYOI", "S1E2", "SuperSuper"]
 ---
 
+Let's say that you already have an idea about an application that you would like to build. As engineers we are eager to get our hands dirty and start writing some code, however I would actually advise you not to! It is very important to stop and consider for a moment some of the factors that will determine the future of your application. These may include technical aspects such as the programming language to be used or the overall system architecture, however there are also legal and marketing aspects that we tend to overlook. 
+
+# The repository license
+Choosing a license for your repository is very important, since it will determine how your code may be used in the future. Also, in case 
+* Not choosing a license
+* You might be limited to a specific license based on the libraries that you choose to use
+* Can protect you against unauthorized use
+
+When creating a public repository on most Git platforms you are promp
+
+### Disclaimer
+This article is based solely on my opinion and (limited) experience on the following topics, and do not intend to provide legal advice. I strongly recommend searching for legal counseling as to the possible implications of the repository license of your choice.
+
+# The domain name
+The domain name might be strongly tied to your project name. We need to keep in mind that 
+  
+
+
+If you already have an idea of an application that you would like to build and are eager to start writing some code.
 https://choosealicense.com/licenses/
 https://opensource.org/licenses
 https://github.com/new
